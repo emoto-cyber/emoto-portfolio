@@ -150,12 +150,12 @@ export default function Home() {
           ))}
 
         </div>
+        </section>
 
-      </section>
-<section id="skills" className="light-section py-20 bg-white text-black text-center px-6">
+      <section id="skills" className="light-section py-20 bg-white text-black text-center px-6">
 
   <h2 className="text-3xl font-bold text-green-600 mb-10">
-    My Skills
+    Skills
   </h2>
 
   <div className="skills-grid">
