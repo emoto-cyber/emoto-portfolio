@@ -53,28 +53,28 @@ APIs • WORDPRESS • WEB APPLICATIONS
       </div>
 
       <div className="home-scl">
-        <a href="#">
+        <a href="https://www.facebook.com/kejjoh.kelloh">
           <i className="bi bi-facebook"></i> 
         </a>
 
-          <a href="#">
+          <a href="https://www.instagram.com/kelvynemoto/?hl=en">
           <i className="bi bi-instagram"></i> 
         </a>
 
-          <a href="#">
+          <a href="https://www.youtube.com/@emotokevin3312">
           <i className="bi bi-youtube"></i> 
         </a>
 
-          <a href="#">
+          <a href="https://www.tiktok.com/search?q=emoto&t=1777144062905">
           <i className="bi bi-tiktok"></i> 
         </a>
 
        
-        <a href="#">
+        <a href="https://x.com/loger_vic">
           <i className="bi bi-twitter"></i> 
         </a>
 
-        <a href="#" >
+        <a href="https://github.com/emoto-cyber" >
           <i className="bi bi-github"></i> 
         </a>
       </div>
@@ -104,7 +104,7 @@ APIs • WORDPRESS • WEB APPLICATIONS
 
           <p className="text-gray-700 leading-relaxed">
          I’m an organized and motivated IT professional with strong hands-on experience in Laravel-based systems, UI/UX design, and front-end development. 
-         I’ve worked on live client websites, internal company systems, and academic projects, often collaborating with senior developers. I use Docker for local development and enjoy turning ideas into responsive, accessible, and visually clear interfaces.
+         I’ve worked on live client websites, internal company systems, and academic projects, often collaborating with senior developers. I use VS Code for local development and enjoy turning ideas into responsive, accessible, and visually clear interfaces.
           I’m currently learning React and Python to strengthen my front-end and data skills.
           </p>
         </div>
@@ -213,10 +213,10 @@ APIs • WORDPRESS • WEB APPLICATIONS
         {/* FRONTEND */}
     <div className="skill-card">
       <h3 className="skill-title frontend"></h3>
-      <h1>Additional</h1>
+      <h1>Tools & Platforms</h1>
 
          <div className="skill-tags">
-        {["Laravel", "PHP", "MySQL", "REST APIs", "JavaScript", "Tailwind CSS", "Bootstrap", "HTML & CSS"].map((skill, i) => (
+        {["HeidiSQL", "Postman", "Docker", "Git", "GitHub", "VS Code","My Sql" ,"Linux (basic)"].map((skill, i) => (
           <span key={i} className="skill-tag">
             {skill}
           </span>
@@ -229,6 +229,70 @@ APIs • WORDPRESS • WEB APPLICATIONS
   </div>
 
 </section>
+{/* EXPERIENCE */}
+<section id="experience" className="py-20 bg-black text-white text-center px-6">
+
+  <h2 className="text-3xl font-bold text-blue-500 mb-10">
+    Experience
+  </h2>
+
+  <div className="grid md:grid-cols-4 gap-6 max-w-7xl mx-auto">
+
+    {[
+      {
+        role: "Full-Stack Developer",
+        company: "Techbridge Solutions",
+        date: "Jan 2024 - Present",
+        desc: "Developing ERP systems, APIs, and scalable Laravel applications.",
+      },
+      {
+        role: "Web Developer",
+        company: "Healthclassique",
+        date: "Aug 2023 - Dec 2023",
+        desc: "Built and maintained a WordPress-based healthcare website.",
+      },
+      {
+        role: "Intern Developer",
+        company: "IT Department",
+        date: "May 2023 - Jul 2023",
+        desc: "Worked on internal systems and assisted in debugging applications.",
+      },
+      {
+        role: "Student Projects",
+        company: "Academic Work",
+        date: "2022 - 2023",
+        desc: "Developed systems including hostel management and CRUD apps.",
+      },
+    ].map((exp, i) => (
+      <div
+        key={i}
+        className="bg-gray-900 border border-gray-800 rounded-lg p-6 hover:-translate-y-2 hover:border-blue-500 transition duration-300 text-left"
+      >
+        <h3 className="text-lg font-bold text-green-400 mb-2">
+          {exp.role}
+        </h3>
+
+        <p className="text-sm text-blue-400 mb-1">
+          {exp.company}
+        </p>
+
+        <p className="text-xs text-gray-500 mb-3">
+          {exp.date}
+        </p>
+
+        <p className="text-gray-400 text-sm">
+          {exp.desc}
+        </p>
+      </div>
+    ))}
+
+  </div>
+</section>
+
+
+
+
+
       {/* CONTACT */}
       <section id="contact" className="py-20 text-center px-6">
 
@@ -237,7 +301,8 @@ APIs • WORDPRESS • WEB APPLICATIONS
         </h2>
 
         <p className="text-gray-400 mb-4">
-          Let’s build something impactful together.
+          Let’s build something impactful together - I’m open to internships, part-time roles, and collaborations. 
+          If you have a project or an idea, let’s bring it to life..
         </p>
 
         <h3 className="text-green-400 mb-6">
@@ -248,10 +313,10 @@ APIs • WORDPRESS • WEB APPLICATIONS
           <a href="mailto:emotokevin@gmail.com" className="hover:text-blue-500">
             Email
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-500">
+          <a href="https://github.com/emoto-cyber" target="_blank" rel="noopener noreferrer" className="hover:text-green-500">
             GitHub
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
+          <a href="https://www.linkedin.com/in/kevin-emoto-0b617519b/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500">
             LinkedIn
           </a>
         </div>
