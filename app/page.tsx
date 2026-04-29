@@ -121,7 +121,7 @@ APIs • WORDPRESS • WEB APPLICATIONS
 
     {[
       {
-        title: "Techbridge ERP System",
+        title: "Ongoing Laravel Based Techbridge ERP System",
         desc: "Comprehensive ERP for inventory, sales, and finance management.",
         tech: "Laravel • MySQL • Tailwind CSS • JavaScript",
         image: "/images/erp.jpg",
@@ -135,7 +135,7 @@ APIs • WORDPRESS • WEB APPLICATIONS
       {
         title: "Hostel Management System",
         desc: "Role-based management system with permissions.",
-        tech: "Laravel • Spatie",
+        tech: "Laravel • Spatie Permissions • MySQL • Tailwind CSS",
         image: "/images/hostel.jpg",
       },
     ].map((p, i) => (
@@ -240,28 +240,46 @@ APIs • WORDPRESS • WEB APPLICATIONS
 
     {[
       {
-        role: "Full-Stack Developer",
-        company: "Techbridge Solutions",
-        date: "Jan 2024 - Present",
-        desc: "Developing ERP systems, APIs, and scalable Laravel applications.",
+        role: "Software Developer",
+        company: "Greyglass Technologies - Nairobi",
+        date: "Jan 2025 - Present",
+        desc: [
+          "Collaborated with senior developers on ERP systems and scalable Laravel applications",
+          "Contributed to building REST APIs for seamless frontend–backend integration",
+          "Implemented role-based authentication and authorization",
+          "Collaborated with developers on UI/UX improvements"
+        ],
       },
       {
         role: "Web Developer",
-        company: "Healthclassique",
-        date: "Aug 2023 - Dec 2023",
-        desc: "Built and maintained a WordPress-based healthcare website.",
+        company: "Healthclassique - Nairobi",
+        date: "Aug 2025 - Dec 2025",
+        desc: [
+          "Built and maintained a WordPress-based skincare website",
+          "Customized themes and plugins to meet business needs",
+          "Improved website responsiveness and user experience",
+          "Collaborated with designers and content creators for visual appeal"
+        ],
       },
       {
-        role: "Intern Developer",
-        company: "IT Department",
+        role: "It Support Intern",
+        company: "ICT Authority - Busia",
         date: "May 2023 - Jul 2023",
-        desc: "Worked on internal systems and assisted in debugging applications.",
+        desc: [
+          "Assisted in developing and maintaining internal systems",
+          "Debugged applications and resolved technical issues",
+          "Collaborated with team members on system improvements"
+        ],
       },
       {
         role: "Student Projects",
         company: "Academic Work",
         date: "2022 - 2023",
-        desc: "Developed systems including hostel management and CRUD apps.",
+        desc: [
+          "Developed full-stack applications including hostel systems",
+          "Built CRUD systems using Laravel and MySQL",
+          "Applied best practices in UI design and database structure"
+        ],
       },
     ].map((exp, i) => (
       <div
@@ -280,9 +298,11 @@ APIs • WORDPRESS • WEB APPLICATIONS
           {exp.date}
         </p>
 
-        <p className="text-gray-400 text-sm">
-          {exp.desc}
-        </p>
+        <ul className="text-gray-400 text-sm list-disc pl-5 space-y-1 leading-relaxed">
+          {exp.desc.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </div>
     ))}
 
