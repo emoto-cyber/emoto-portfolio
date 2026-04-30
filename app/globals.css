@@ -143,6 +143,7 @@ body {
   border: 4px solid #10b981;
   box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
   transition: 0.3s;
+
   
 }
 
@@ -170,14 +171,19 @@ body {
 .light-section {
   background: rgb(244, 243, 243);
   color: black;
-  border-radius: 20px; 
+  border-radius: 10px; 
   border-color: #10b981;
-  padding-left: 200px;
+ padding-right: 200px;
+ padding: 24px;
+  border-radius: 10px;
+  transition: 0.3s;
+  text-align: left;
 }
 
 .containers {
   max-width: 1200px;
   margin: auto;
+   
 }
 
 .home-scl a {
@@ -207,8 +213,8 @@ body {
 
 .skill-card {
   background: #f9fafb;
-  padding: 28px;
-  border-radius: 14px;
+  padding: 24px;
+  border-radius: 10px;
   border: 1px solid #e5e7eb;
   transition: 0.3s ease;
   text-align: left;
