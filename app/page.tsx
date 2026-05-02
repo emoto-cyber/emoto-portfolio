@@ -46,12 +46,12 @@ MOBILE IMAGE
 </div>
 
 {/* HERO */}
-<section className="hero w-full relative overflow-hidden">
+{/* <section className="hero w-full relative overflow-hidden"> */}
  
   {/* <div className="glow glow-green"></div>
   <div className="glow glow-blue"></div> */}
-
-  <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 md:px-10 gap-6">
+{/* 
+  < className="flex flex-col md:flex-row items-center justify-center w-full px-4 md:px-10 gap-6"> */}
 
     {/* TEXT */}
     {/* <div className="w-full md:w-[55%] text-center md:text-left">
@@ -105,7 +105,7 @@ MOBILE IMAGE
   <div className="glow glow-blue"></div>
 
   {/* CARD */}
-  <div className="w-full max-w-6xl bg-black/60 backdrop-blur-md rounded-2xl shadow-xl border border-white/10 p-6 md:p-10">
+  <div className="cards w-full max-w-6xl bg-black/60 backdrop-blur-md rounded-2xl shadow-xl border border-white/10 p-6 md:p-10">
 
     <div className="flex flex-col md:flex-row items-center justify-center gap-6">
 
@@ -158,8 +158,7 @@ MOBILE IMAGE
   </div>
 </section>
 
-  </div>
-</section>
+  
 
 
       {/* ABOUT */}
